@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Top 3 Bandas</title>
+</head>
+
+<body bgcolor="#8105AF">
+    <h1 align="center"><img src="../imagens/rock.png" height="30px" width="30px" alt="ícone utilizado para representar o rock">Top 3 bandas de Rock'n'Roll <img src="../imagens/rock.png" height="30px" width="30px" alt="ícone utilizado para representar o rock"></h1>
+
+    <ol>
+        <li><strong>Fresno</strong></li>
+        <ul type="disc"><br />
+            <li>Melhores músicas:</li>
+            <dl>
+                <dt><a href="musica2.html" target="_blank" title="Ir para a página da Fresno (link externo)">Eu Sou A
+                        Maré Viva</a></dt>
+                <dd>Ano de lançamento: 2014</dd>
+                <dd>Álbum: Natureza Caos</dd><br />
+                <dt>Maior que as Muralhas</dt>
+                <dd>Ano de lançamento: 2012</dd>
+                <dd>Álbum: Infinito</dd>
+            </dl>
+        </ul>
+        <li><strong>Queen</strong></li>
+        <ul type="circle"><br />
+            <li>Melhores músicas:</li>
+            <dl>
+                <dt><a href="musica1.html" target="_blank" title="Ir para a página do Queen (link externo)">Bohemian
+                        Rhapsody</a></dt>
+                <dd>Ano de lançamento: 1975</dd>
+                <dd>Álbum: A Night at the Opera</dd><br />
+                <dt>We Are the Champions</dt>
+                <dd>Ano de lançamento: 1977</dd>
+                <dd>Álbum: News of the World</dd><br />
+            </dl>
+        </ul>
+        <li><strong>Aerosmith</strong></li>
+        <ul type="square"><br />
+            <li>Melhores músicas:</li>
+            <dl>
+                <dt>I Don't Wanna Miss a Thing</dt>
+                <dd>Ano de lançamento: 1998</dd>
+                <dd>Álbum: I Don't Wanna Miss a Thing</dd><br />
+            </dl>
+        </ul>
+    </ol>
+    <hr />
+
+    <fieldset>
+        <legend><b>Para começar</b> - quem é você?</legend>
+        <form>
+            <p>
+                <label for="nome">
+                    Nome completo:
+                </label>
+                <input type="text" id="nome" placeholder="Digite seu nome completo" name="nome" />
+            </p>
+            <p>
+                <label for="dataNascimento">
+                    Data de nascimento:
+                </label>
+                <input type="date" id="dataNascimento" name="dataNascimento" />
+            </p>
+            <p>
+                <label for="identificacao">Gênero:</label>
+                <select name="identificacao" id="identificacao">
+                    <option>Selecione uma opção:</option>
+                    <option value="FC">Feminino cis</option>
+                    <option value="FT">Feminino trans</option>
+                    <option value="MC">Masculino cis</option>
+                    <option value="MT">Masculino trans</option>
+                    <option value="NB">Não binário</option>
+                    <option value="NO">Prefiro não opinar</option>
+                </select>
+            </p>
+        </form>
+    </fieldset>
+    <fieldset>
+        <legend><b>Para cadastro</b> - prometemos não te encher de spam</legend>
+        <form>
+            <p>
+                <label for="email">
+                    E-mail:
+                </label>
+                <input type="email" id="email" placeholder="Digite seu e-mail" name="email" />
+            </p>
+            <p>
+                <label for="senha">
+                    Senha:
+                </label>
+                <input type="password" id="senha" placeholder="Digite sua senha" name="senha" />
+            </p>
+        </form>
+    </fieldset>
+    <fieldset>
+        <legend><b>'Tá quase acabando</b> - vamos nos conhecer melhor?</legend>
+        <form>
+            <p>
+                <label for="cor">Cor favorita:</label>
+                <input type="color" id="cor" />
+            </p>
+            <p>
+                <legend>Qual(is) banda(s) já conhecia? </legend>
+                <label for="banda">
+                    <input type="checkbox" name="banda" />Fresno
+                    <input type="checkbox" name="banda" />Queen
+                    <input type="checkbox" name="banda" />Aerosmith
+                </label>
+            </p>
+            <p>
+                <legend>Qual música preferiu? </legend>
+                <input type="radio" name="musica" />Eu Sou A Maré Viva
+                <input type="radio" name="musica" />Maior que as Muralhas
+                <input type="radio" name="musica" />Bohemian Rhapsody
+                <input type="radio" name="musica" />We Are the Champions
+                <input type="radio" name="musica" />I Don't Wanna Miss a Thing
+            </p>
+            <label for="mensagem">
+                Deixe sugestões de músicas e/ou bandas:
+            </label><br />
+            <textarea id="mensagem" placeholder="Deixe aqui sua mensagem"></textarea>
+        </form>
+    </fieldset>
+    <fieldset>
+        <legend>
+            <b>Uff agora acabou!</b> - nos vemos na próxima visita ;)
+        </legend>
+        <p>
+            <b>Escreveu algo errado?</b><br /> Ainda dá tempo de recomeçar:
+            <button type="reset">Limpar campos</button>
+        </p>
+        <p>
+            <b>Tudo pronto?</b><br /> Valeu! Não se esqueça de clicar aqui:
+            <button type="submit">Enviar dados</button>
+        </p>
+    </fieldset>
+
+</body>
+
+</html>
